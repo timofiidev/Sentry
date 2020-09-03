@@ -3,7 +3,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import * as Sentry from '@sentry/angular';
 import { Integrations } from "@sentry/tracing";
 
-import { AppModule } from './app/app.module';
+import { AppModule } from './app.module.ts';
 
 Sentry.init({
   dsn: 'https://9d2f0bb96e8b48439036e0dee3c00d64@o442880.ingest.sentry.io/5415687',
